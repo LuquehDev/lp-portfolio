@@ -77,7 +77,7 @@ import Image from "next/image";
 
 export default function Technologies() {
     return (
-        <section id="technologies" className="flex flex-col gap-6">
+        <section id="technologies" className="flex flex-col gap-6 py-22">
             <div className="flex flex-row items-center gap-6 w-full">
                 <div className="text-primary text-4xl lg:text-5xl font-semibold text-nowrap">Using <span className="text-secondary">Technologies</span></div>
                 <div className="w-full bg-primary/30 dark:bg-muted/30 h-1 rounded-full" />

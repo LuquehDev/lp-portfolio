@@ -3,7 +3,7 @@ import { CodeXml, MapPin, CalendarFold } from "lucide-react";
 
 export default function AboutMe() {
     return (
-        <section id="about" className="flex flex-col gap-6">
+        <section id="about" className="flex flex-col gap-6 py-22">
             <div className="flex flex-row items-center gap-6 w-full">
                 <div className="text-primary text-4xl lg:text-5xl font-semibold text-nowrap">About <span className="text-secondary">Me</span></div>
                 <div className="w-full bg-primary/30 dark:bg-muted/30 h-1 rounded-full" />
@@ -16,7 +16,7 @@ export default function AboutMe() {
                     alt="Logo LP"
                     className="rounded-2xl shadow-lg shadow-black/20"
                 />
-                <div className="flex flex-col h-full gap-6 lg:gap-0 justify-between">
+                <div className="flex flex-col flex-1 gap-6 lg:gap-0 justify-between lg:self-stretch">
                     <div className="flex flex-col gap-4">
                         <div className="flex w-full gap-2 text-primary text-4xl lg:text-5xl font-bold lg:justify-normal justify-center items-center">Luiz <span className="text-secondary">Henrique</span> Paiva</div>
                         <div className="flex flex-col gap-1">

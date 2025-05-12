@@ -9,7 +9,7 @@ import MyProjects from "@/components/components/projects-component";
 export default function Home() {
   return (
     <div className="flex flex-col h-full w-full">
-      <div className="flex flex-col h-full gap-[200px] px-8 md:px-10 lg:px-12">
+      <div className="flex flex-col h-full gap-[100px] px-8 md:px-10 lg:px-12">
         <HeroComponent />
         <AboutMe />
         <Technologies />

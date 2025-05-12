@@ -11,10 +11,9 @@ const FooterPage = () => {
     return (
         <div className="flex flex-col w-full">
             <footer>
-                <div className="w-full mx-auto mt-35">
+                <div className="w-full mx-auto">
                     <Separator />
                     <div className="py-8 flex flex-col-reverse sm:flex-row items-center justify-between gap-x-2 gap-y-5 px-6 xl:px-4">
-                        {/* Copyright */}
                         <span className="text-muted-foreground">
                             &copy; {new Date().getFullYear()}{" "}
                             <Link href="/" target="_blank" className="font-bold text-secondary">

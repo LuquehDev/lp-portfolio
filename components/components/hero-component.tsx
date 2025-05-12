@@ -15,12 +15,10 @@ export default function HeroSection() {
       id="start"
       className="relative h-screen w-full text-primary flex flex-col items-center justify-center"
     >
-      {/* Fundo com círculo iluminado */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="w-[300px] h-[300px] dark:bg-muted/25 rounded-full blur-[150px]" />
       </div>
 
-      {/* Conteúdo central */}
       <div className="z-10 text-center px-4">
         <h1 className="text-5xl md:text-7xl font-black leading-tight md:mb-80">
           Turning <span className="text-blue-500">ideas</span>
@@ -30,7 +28,6 @@ export default function HeroSection() {
           <span className="text-blue-500">interfaces</span>!
         </h1>
 
-        {/* Redes sociais com tooltip */}
         <TooltipProvider>
           <div className="flex items-center justify-center gap-4 mt-4">
             <Tooltip>
@@ -81,7 +78,6 @@ export default function HeroSection() {
         </TooltipProvider>
       </div>
 
-      {/* Ícones flutuantes */}
       <div className="absolute inset-0 pointer-events-none">
         <Image
           src="/svg1.svg"
