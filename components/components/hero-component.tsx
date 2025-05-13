@@ -84,42 +84,42 @@ export default function HeroSection() {
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-160 hidden md:block md:left-[15%] lg:left-[20%] animate-floating"
+          className="absolute bottom-[80%] hidden md:block md:left-[15%] lg:left-[20%] animate-floating"
         />
         <Image
           src="/svg2.svg"
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-120 hidden md:block md:left-5 lg:left-[12%] animate-floating"
+          className="absolute bottom-[55%] hidden md:block md:left-5 lg:left-[12%] animate-floating"
         />
         <Image
           src="/svg3.svg"
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-50 hidden md:block md:left-[20%] lg:left-[30%] animate-floating"
+          className="absolute bottom-[5%] hidden md:block md:left-[20%] lg:left-[30%] animate-floating"
         />
         <Image
           src="/svg4.svg"
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-50 hidden md:block md:left-[65%] lg:left-[60%] animate-floating"
+          className="absolute bottom-[5%] hidden md:block md:left-[65%] lg:left-[60%] animate-floating"
         />
         <Image
           src="/svg5.svg"
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-120 hidden md:block md:left-[82%] lg:left-[78%] animate-floating"
+          className="absolute bottom-[55%] hidden md:block md:left-[82%] lg:left-[78%] animate-floating"
         />
         <Image
           src="/svg6.svg"
           alt="Floating Icon"
           width={110}
           height={110}
-          className="absolute bottom-160 hidden md:block md:left-[75%] lg:left-[70%] animate-floating"
+          className="absolute bottom-[80%] hidden md:block md:left-[75%] lg:left-[70%] animate-floating"
         />
       </div>
     </section>

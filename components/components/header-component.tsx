@@ -33,7 +33,7 @@ export function SiteHeader() {
       className={`sticky top-0 z-50 flex w-full py-4 items-center justify-between px-8 md:px-10 lg:px-12 gap-2 ${scrolled ? "backdrop-blur-sm bg-background/70" : ""
         }`}
     >
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 cursor-pointer">
         <Image width={34} height={34} src="/logoLP.png" alt="Logo LP" />
         <Separator orientation="vertical" />
         <div onClick={toggleTheme}>
