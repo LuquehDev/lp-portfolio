@@ -12,6 +12,7 @@ export default function MyProjects() {
       image: "/projects/doodes.png",
       logo: "/projects/logoDoodes.png",
       link: "https://doodes.com",
+      active: "no",
     },
   ];
 
@@ -35,19 +36,19 @@ export default function MyProjects() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className="bg-card dark:bg-muted/5 dark:hover:bg-muted/15  rounded-xl shadow-lg flex flex-col overflow-hidden"
+                className="bg-card dark:bg-muted/5 transition-colors dark:hover:bg-muted/10 rounded-xl shadow-lg flex flex-col overflow-hidden group"
               >
                 <div className="flex flex-col justify-baseline items-center w-full relative">
-                  <div className="w-full overflow-hidden relative">
+                    <div className="w-full overflow-hidden relative">
                     <Image
                       src={project.image}
                       alt={project.title}
                       width={400}
-                      height={100}
-                      className="w-full h-full object-cover"
+                      height={180}
+                      className="w-full h-36 object-cover"
                     />
-                    <div className="absolute inset-0 bg-black/50" />
-                  </div>
+                    <div className="absolute inset-0 bg-black/60 group-hover:bg-black/20 transition-colors" />
+                    </div>
                   <div className="-mt-14 z-10">
                     <div className="relative w-22 h-22 rounded-full bg-black border border-primary shadow-md flex items-center justify-center overflow-hidden">
                       <div className="absolute inset-0 bg-primary/15 blur-xl opacity-50 z-0" />
@@ -84,8 +85,8 @@ export default function MyProjects() {
                   </div>
 
                   <Button
-                    asChild
                     className="mt-4 mb-4 w-full bg-secondary text-primary hover:bg-secondary/80"
+                    disabled={project.active === "no"}
                   >
                     <a
                       href={project.link}
